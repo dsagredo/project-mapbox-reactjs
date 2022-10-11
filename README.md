@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Using Mapbox GL JS with React.JS
+<br>
+<div align="center">
+  
+<img width="1699" alt="Captura de Pantalla 2022-10-11 a la(s) 12 57 58" src="https://user-images.githubusercontent.com/24228373/195141706-8a32d8b7-e4d0-4c1f-8469-6523108acba7.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+</div>
 
-## Available Scripts
+## Build-With:
 
-In the project directory, you can run:
+- axios
+- bootstrap
+- json-server
+- mapbox-gl
+- react-map-gl
+- react-redux
+- reactstrap
+- redux
+- redux-typescript
+- typescript
 
-### `npm start`
+## Features
+There is a surprisingly limited number of resources online that detail the process of setting up mapbox-gl and mapbox-gl-directions in a React app (at least for beginners). Uber’s react-map-gl library works well in that it serves as a wrapper for the core Mapbox API, but this library does not include built-in functionality for utilizing the Mapbox Directions API. Displaying routes with this library would require creating custom layers. The Mapbox website has steps for utilizing mapbox-gl in a React app here, but there does not appear to be similar tutorials for the Mapbox Directions API. The majority of tutorials focus on using Mapbox and Mapbox Directions in a static index.html file. For those who are interested in building a React app with Mapbox but unsure how to proceed, this article will serve as a guide for getting started.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Installation
+```sh
+$ git clone https://github.com/dsagredo/project-reactjs-mapbox.git
+$ cd projectreactnativeformik/
+$ npm install
+$ npm run ios
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
